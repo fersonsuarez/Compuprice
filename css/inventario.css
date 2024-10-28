@@ -1,0 +1,96 @@
+/* Estilos generales para el contenedor del dashboard */
+.main {
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título principal */
+h1 {
+    color: #343a40; /* Color del texto del título */
+}
+
+/* Estilos para la sección de productos */
+#productos {
+    margin-bottom: 20px;
+}
+
+.add-component-section {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.add-component-section summary {
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el resumen */
+    outline: none; /* Quitar el contorno predeterminado */
+}
+
+.add-component-section summary h3 {
+    margin: 0; /* Quitar margen predeterminado */
+    color: #343a40; /* Color del encabezado */
+}
+
+.add-component-section form {
+    display: flex;
+    flex-direction: column; /* Colocar los inputs en columna */
+    margin-top: 10px; /* Espaciado superior del formulario */
+}
+
+.add-component-section input {
+    padding: 10px;
+    margin: 5px 0; /* Espaciado entre inputs */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.add-component-section button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white;
+    padding: 10px 15px; /* Espaciado interno */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.add-component-section button:hover {
+    background-color: #0056b3; /* Color al pasar el cursor */
+}
+
+
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #dee2e6; /* Borde de la tabla */
+    padding: 10px;
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+table th {
+    background-color: #e9ecef; /* Color de fondo del encabezado */
+}
+
+/* Estilos para los botones de eliminar */
+button[name="delete_component"] {
+    background-color: #dc3545; /* Color rojo para eliminar */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[name="delete_component"]:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el cursor */
+}

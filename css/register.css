@@ -1,0 +1,66 @@
+.navbar-nav .nav-link { 
+    color: white !important; /* Asegura que el color del texto sea blanco */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Añade una transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-link:hover { 
+    background-color: #007bff; /* Cambia el color de fondo al pasar el cursor */
+    color: white; /* Mantiene el texto blanco */
+    border-radius: 8px; /* Añade puntas redondeadas al pasar el cursor */
+}
+
+/* Estilos para el contenedor de registro */
+.register-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin-top: 120px; 
+}
+
+.register-container h2 {
+    color: #545454;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.register-container input {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-container select {
+    width: 270px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.register-container button:hover {
+    background-color: black;
+}
+
+.register-container .error {
+    color: #007bff;
+    margin-top: 10px;
+}
